@@ -1,0 +1,74 @@
+/*
+Theme Name: The Bridge
+Author: KAIZERWEBDESIGN - +237 696 46 83 33
+Version: 1.0
+*/
+
+@import "css/core-style.css";
+
+.header-area .academy-main-menu{
+    transition: all 0.8s ease 0s;
+}
+.welcome-txt p {
+    text-align: justify; 
+    color: black; 
+    line-height: 2.29; 
+    margin-bottom: 25px;
+    font-weight: unset;
+}
+
+.v-align{
+    vertical-align: middle!important;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.f-table {
+    background-color: #04b64f;
+    color: white;
+}
+
+.news-container{
+    margin-top: 150px;
+}
+
+.contact-content{
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+}
+
+li.active a {
+    color: #04b64f;
+}
+
+.mb-35 {
+    margin-bottom: 35px !important;
+}
+
+.bottom-footer-area p {
+    font-size: 14px;
+}
+.bottom-footer-area p a {
+    font-size: 14px;
+}
+
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+    
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #04b64f;
+}
+
+@media only screen and (max-width: 450px) {
+    .mail-link{
+        display: none;
+    }
+}
